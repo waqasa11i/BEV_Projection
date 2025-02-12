@@ -1,6 +1,6 @@
-# BEV Projection for SemKITTI Dataset
+# BEV Projection for SemanticKitti Dataset
 
-This repository is for multi-channel Bird-Eye-Projection for SemKITTI dataset. This package produces rgb images using the pooint cloud data and semantic labels, where each color represents a specific semantic class.
+This repository is for multi-channel Bird-Eye-Projection for SemanticKitti dataset. This package produces rgb images using the point cloud data and semantic labels, where each color represents a specific semantic class.
 
 ## Requirements 
 
@@ -13,7 +13,6 @@ Please download SemKITTI dataset and ensure the following structure
 ```
 ./dataset/
 ├── 
-├── ...
 └── SemanticKitti/
     ├──sequences
         ├── 00/           
@@ -25,17 +24,17 @@ Please download SemKITTI dataset and ensure the following structure
         |   |   ├── 000000.label
         |   |   ├── 000001.label
         |   |   └── ...
-        |   └── image_2/ 
+        |   └── BEV_images/ 
 
 ```
 
 ## Run Packages
 
 ```shell script
-./BEV_projection /home/user/dataset/SemKitti/sequences/00/
+./BEV_projection /home/user/dataset/SemanticKitti/sequences/00/
 
 ```
 
-## Sample Output
+## Example Output
 
 ![image](figures/000000.png)
