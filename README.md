@@ -10,8 +10,11 @@ This repository is for multi-channel Bird-Eye-Projection for SemKITTI dataset. T
 ## Data Structure
 
 Please download SemKITTI dataset and ensure the following structure
+```
 ./dataset/
-├──SemanticKitti/
+├── 
+├── ...
+└── SemanticKitti/
     ├──sequences
         ├── 00/           
         │   ├── velodyne/	
@@ -22,7 +25,9 @@ Please download SemKITTI dataset and ensure the following structure
         |   |   ├── 000000.label
         |   |   ├── 000001.label
         |   |   └── ...
-        |   └── BEV_images/ 
+        |   └── image_2/ 
+
+```
 
 ## Run Packages
 
